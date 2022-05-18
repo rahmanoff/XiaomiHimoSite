@@ -110,7 +110,7 @@ body{
     display: inline-block;
     background-color: #131313;
     color: #fff;
-    padding: 28px 81px;
+    padding: 28px 71px 28px 81px;
 }
 
 .bike-slider .slick-dots{
@@ -393,7 +393,7 @@ body{
 
 .form__btn{
     background-color: #131313;
-    padding: 28px 81px;
+    padding: 28px 71px 28px 81px;
     border: none;
     color: #fff;
     text-transform: uppercase;
@@ -401,4 +401,46 @@ body{
     line-height: 24px;
     letter-spacing: 1.1em;
     cursor: pointer;
+}
+
+.footer{
+    background-color: #131313;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.footer__link{
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.footer__social-link + .footer__social-link{
+    margin-left: 26px;
+}
+
+.footer__contacts{
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__contacts-link{
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts-link + .footer__contacts-link{
+    margin-top: 10px;
+}
+
+.footer__contacts-img{
+    margin-right: 10px;
 }
