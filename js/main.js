@@ -7,4 +7,15 @@ $(function(){
         autoplay: true,
         autoplaySpeed: 2000
       });
+
+      $('.menu, .bike__column').on('click','a', function(event) {
+        /*
+        Be careful!!!
+        Links to other sites will NOT work!!!
+        */
+        event.preventDefault();
+        var id = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body, html').animate({scrollTop: top}, 1500);
+      });
 });

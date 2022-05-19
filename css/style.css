@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* html{
+    scroll-behavior: smooth;
+} */
+
 ul{
     margin: 0;
     padding: 0;
@@ -67,7 +71,7 @@ body{
 }
 
 .bike{
-    padding: 100px 0 150px;
+    padding: 100px 0 100px;
 }
 
 .bike__inner{
@@ -111,6 +115,11 @@ body{
     background-color: #131313;
     color: #fff;
     padding: 28px 71px 28px 81px;
+    transition: all .3s;
+}
+
+.bike__link:hover{
+    background-color: #ff4040;
 }
 
 .bike-slider .slick-dots{
@@ -172,7 +181,8 @@ body{
 }
 
 .info{
-    margin-bottom: 150px;
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 .info__inner{
@@ -207,6 +217,7 @@ body{
 }
 
 .characteristics{
+     padding-top: 50px;
     margin-bottom: 150px;
 }
 
@@ -401,6 +412,11 @@ body{
     line-height: 24px;
     letter-spacing: 1.1em;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.form__btn:hover{
+    background-color: #ff4040;
 }
 
 .footer{
