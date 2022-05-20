@@ -497,6 +497,10 @@ body{
         padding-top: 0px;
         margin-bottom: 50px;
     }
+    .slider__img{
+        object-fit: cover;
+        height: 400px;
+    }
 }
 
 @media(max-width: 991px){
@@ -564,6 +568,12 @@ body{
     .info__item + .info__item{
         padding-top: 30px;
     }
+    .slider__img{
+        height: 250px;
+    }
+    .slider__item{
+        padding-left: 10px;
+    }
 }
 
 @media(max-width: 460px){
@@ -574,9 +584,12 @@ body{
         padding: 25px 0;
     }
     .bike__link{
-        padding: 15px;
+        padding: 15px 10px 15px 35px;
         letter-spacing: 1em;
         align-items: center;
+    }
+    .slider{
+        display: none;
     }
 }
 @media(max-width: 350px){
