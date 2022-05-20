@@ -12,7 +12,7 @@ $(function(){
         /*
         Be careful!!!
         Links to other sites will NOT work!!!
-        */
+        s*/
         event.preventDefault();
         var id = $(this).attr('href'),
         top = $(id).offset().top;
