@@ -493,11 +493,33 @@ body{
     .info__item-text{
         max-width: 100%;
     }
+    .characteristics{
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width: 991px){
     .menu{
         margin-right: 0;
+    }
+    .characteristics__inner{
+        flex-wrap: wrap;
+    }
+    .characteristics__img{
+        order: -1;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .characteristics__items{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .characteristics__name{
+        flex-basis: 50%;
+    }
+    .characteristics__descr{
+        flex-basis: 50%;
     }
 }
 
